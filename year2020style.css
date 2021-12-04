@@ -1,0 +1,38 @@
+*{
+    box-sizing:border-box;
+    padding:0px;
+    margin:0;
+}
+body, html{
+    height: 100%;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    background: rgb(10, 10, 10);
+    width: 100%;
+    justify-content:center;
+    align-items: center;
+}
+.title{
+    padding-top: 55px;
+    color: #E2C25F;
+    text-align: center;
+    font-size: 25px;
+    padding-bottom: 15px;
+}
+.content{
+    text-align: justify;
+    width: 70%;
+    color: cornsilk;
+    text-indent: 15px;
+    font-size: 17px;
+}
+iframe{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.video{
+    display: flex;
+    justify-content: center;
+}
